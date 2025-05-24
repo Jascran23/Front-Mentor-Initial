@@ -33,6 +33,10 @@ body{
     border-radius: 1.2rem;
 }
 
+.conteudo{
+    margin-top: 15px;
+}
+
 .conteudo h2{
     font-weight: 700;
     color: hsl(218, 44%, 22%);
