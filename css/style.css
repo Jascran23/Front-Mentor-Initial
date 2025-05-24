@@ -2,9 +2,71 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Saira Extra Condensed';
+    font-family: 'Outfit';
+    overflow: hidden;
 }
 
 html,body{
     height: 100%;
+}
+
+
+
+body{
+    background: hsl(212, 45%, 89%);
+}
+
+.box{
+    width: 300px;
+    height: 500px;
+    background: hsl(0, 0%, 100%);
+    text-align: center;
+    border-radius: 1.2rem;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 100px;
+    padding: 10px 10px;
+    box-shadow: 0 15px 10px rgba(31, 50, 81, 0.2);
+}
+
+.box-qrcode{
+    width: 280px;
+    height: 280px;
+    background-image: url(/images/image-qr-code.png);
+    border-radius: 1.2rem;
+    align-items: center;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.conteudo{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 19px;
+    margin-top: 20px;
+}
+
+
+.conteudo h3{
+    font-size: 21px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.conteudo p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 18px;
+    color: hsl(216, 15%, 48%);
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 15px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
