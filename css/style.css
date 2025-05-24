@@ -14,54 +14,50 @@ html,body{
 
 body{
     background: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
 }
 
 .box{
     width: 300px;
-    height: 500px;
     background: hsl(0, 0%, 100%);
     text-align: center;
-    border-radius: 1.2rem;
     margin: 0 auto;
-    align-items: center;
-    margin-top: 100px;
-    padding: 10px 10px;
+    padding: 18px;
     box-shadow: 0 15px 10px rgba(31, 50, 81, 0.2);
+    border-radius: 20px;
 }
 
-.box-qrcode{
-    width: 280px;
-    height: 280px;
-    background-image: url(/images/image-qr-code.png);
-    border-radius: 1.2rem;
-    align-items: center;
-    margin: 0 auto;
-    background-size: cover;
-}
-
-.conteudo{
+.box img{
     width: 100%;
-    height: auto;
-    margin: 0 auto;
-    padding: 0 19px;
-    margin-top: 20px;
+    border-radius: 1.2rem;
+}
+.conteudo{
+
 }
 
-
-.conteudo h3{
-    font-size: 21px;
+.conteudo h2{
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
 
 .conteudo p{
-    font-size: 15px;
     font-weight: 400;
     margin-top: 18px;
     color: hsl(216, 15%, 48%);
 }
 
 
+
+
+
+
+
+
+
+
+/*
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -69,4 +65,4 @@ body{
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-}
+}*/
