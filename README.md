@@ -51,8 +51,11 @@ During this project I reinforced and learned some important concepts.
 ```
 - Use of flex display.
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+body{
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
 }
 ```
 
